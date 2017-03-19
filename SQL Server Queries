@@ -34,3 +34,5 @@ Given a City table, whose fields are described as
 +-------------+----------+
 ##Query a list of CITY names from STATION with even ID numbers only. You may print the results in any order, but must exclude duplicates from your answer.
 SELECT DISTINCT city FROM station WHERE MOD (id, 2) = 0 ORDER BY city ASC;
+# difference between total city number and distinct city number
+Select (count(city)-count(distinct city)) from station
