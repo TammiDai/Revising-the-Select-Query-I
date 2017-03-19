@@ -1,2 +1,2 @@
-# Revising-the-Select-Query-I
+# Revising-the-Select-Queries
 SQL Server Query
